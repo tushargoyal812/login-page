@@ -1,0 +1,37 @@
+@import url("https://glitterui.netlify.app/components.css");
+body {
+  padding: 0;
+  margin: 0;
+}
+.App {
+  font-family: sans-serif;
+  position: absolute;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.box {
+  padding: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: center;
+  border: solid black;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 0.5rem;
+}
